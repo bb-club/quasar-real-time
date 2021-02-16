@@ -22,7 +22,7 @@ Quasar real time boot module
 	    timeComment: {}
 	  },
 	  methods: {
-	    getDateTime: getDateTime('getDate', 'timeComment'),
+	    getDateTime: getDateTime('getDateTime', 'timeComment'),
 	    ...
 	  }
 	  ...

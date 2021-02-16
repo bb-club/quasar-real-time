@@ -32,15 +32,18 @@ Quasar real time boot module
 ## Description
 
 *getDateTime(objUpdateInData, nameComponentMethod)*
-parametr:
-*objUpdateInData - update time object; 
-nameComponentMethod - component method get time*; 
-return value:
-*function(id, unixTime)*; 
-*id - id message (comment); 
-unixTime - unix time, second*; 
-return ->
-time in format if time publish < 2 day else delta time and update time object in data component
+
+ - [ ] parametr:
+ - *objUpdateInData - update time object
+ - nameComponentMethod - component method get time*
+ - [ ] return value:
+ - *function(id, unixTime)*
+ - *id - id message (comment)
+ - unixTime - unix time, second*
+ - [ ] return ->
+ - time in format if time publish < 2 day else delta time and update
+   time object in data component
+
 
 ## Dependencies
 
